@@ -1,0 +1,10 @@
+.input {
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  min-width: 250px;
+  border-radius: 5px;
+  border: 1px solid gainsboro;
+}
+.input:disabled {
+  cursor: not-allowed;
+}

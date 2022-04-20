@@ -1,0 +1,50 @@
+:global {
+
+    .baseLayout {
+        display: flex;
+        justify-content: center;
+    }
+
+    .baseLayoutChild {
+        max-width: 1100px;
+    }
+
+
+    // spacing
+    .padding-base {
+        padding: var(--ga-space);
+    }
+
+    .padding-v {
+        padding: var(--ga-space) 0;
+    }
+
+    .padding-top {
+        padding-top: var(--ga-space);
+    }
+
+    .margin-v {
+        margin: var(--ga-space) 0;
+    }
+
+    .margin-h {
+        margin: 0 var(--ga-space);
+    }
+
+    .padding-h {
+        padding: 0 var(--ga-space);
+    }
+
+    .padding-base-min {
+        padding: var(--ga-space-min);
+    }
+
+    .pointer {
+        cursor: pointer;
+    }
+
+    .ga-disabled {
+        opacity: 0.3;
+    }
+}
+

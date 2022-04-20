@@ -1,0 +1,15 @@
+.main {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  height: 100vh;
+  margin: auto;
+  max-width: 800px;
+  text-align: center;
+}

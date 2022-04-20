@@ -1,0 +1,48 @@
+.navbar {
+    position: absolute;
+    top: 0;
+    height: var(--topbar);
+    left: 0;
+    width: 100vw;
+    //border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    z-index: 10;
+}
+
+.accountElement {
+    display: flex;
+    margin-right: var(--space);
+    position: relative;
+}
+
+.center {
+    background-color: white;
+}
+
+.userInfo {
+    position: absolute;
+    width: 300px;
+    text-align: right;
+    bottom: -25px;
+    right: 0;
+}
+
+.home{
+    top: 5.5px;
+    left: 5px;
+}
+
+.bar {
+    left: 50%;
+    transform: translateX(-50%);
+    top: 5.5px;
+}
+
+.connectBtn {
+    border-radius: 20px;
+    box-shadow: var(--shadowV);
+    border: 4px solid black;
+}

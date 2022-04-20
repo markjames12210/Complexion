@@ -1,0 +1,29 @@
+// fonts
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One:wght@100;300;400;700&display=swap');
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Fredoka One', 'Helvetica Neue', Arial, sans-serif;
+    color: var(--ga-colors-pr)
+}
+
+p, a, ul, li, span {
+    font-family: 'Work Sans', 'Helvetica Neue', Arial, sans-serif;
+    color: var(--ga-colors-pr)
+}
+
+.ga-headline {
+    font-size: 3rem;
+}
+
+.ga-title {
+    font-size: 2rem;
+}
+
+.ga-subtitle {
+    font-size: 1rem;
+}
+
+.ga-description {
+    font-size: 0.8rem;
+}
